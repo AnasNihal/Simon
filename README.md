@@ -2,7 +2,7 @@
 
 Simon Pro is a modern, interactive web-based memory game inspired by the classic Simon game. Test your memory skills, compete with friends, and climb the leaderboard — all from your browser!
 
-![Banner](https://images.unsplash.com/photo-1612874743655-dfcd2fd1f118?auto=format&fit=crop&w=1200&q=80)
+![Banner](https://raw.githubusercontent.com/your-username/your-repo-name/main/assets/banner.png)
 
 ## 🚀 Features
 
