@@ -103,3 +103,14 @@ function startOver() {
   $("#level").text("0");
   $("#player-name").prop("disabled", false).val("");
 }
+// Show guide modal on first load per session
+$(document).ready(() => {
+  if (!sessionStorage.getItem("guideShown")) {
+    $("#guide-modal").fadeIn();
+    sessionStorage.setItem("guideShown", "true");
+  }
+
+  $("#close-guide").click(() => {
+    $("#guide-modal").fadeOut();
+  });
+});
