@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simon Pro - Memory Challenge</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <img src="https://images.unsplash.com/photo-1612874743655-dfcd2fd1f118?auto=format&fit=crop&w=1200&q=80" alt="Simon Banner" class="banner-img">
+    <h1 id="level-title">Welcome to Simon Pro</h1>
+    <p class="subtitle">Test your memory. Beat the high score. Challenge yourself.</p>
+  </header>
+
+  <div class="main-container">
+    <section class="game-section">
+      <div class="scoreboard">
+        <span>Current Level: <strong id="level">0</strong></span><br>
+        <span>High Score: <strong id="high-score">0</strong></span>
+      </div>
+
+      <div class="game-board">
+        <button id="green" class="btn green"></button>
+        <button id="red" class="btn red"></button>
+        <button id="yellow" class="btn yellow"></button>
+        <button id="blue" class="btn blue"></button>
+      </div>
+
+      <div class="controls">
+        <input type="text" id="player-name" placeholder="Enter your name" />
+        <button id="start-btn">Start Game</button>
+        <button id="sound-toggle">🔊 Sound On</button>
+      </div>
+    </section>
+
+    <section class="leaderboard">
+      <h3>Top Players</h3>
+      <ul id="leaderboard-list"></ul>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Simon Pro. Made with  by Anas Nihal</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="game.js"></script>
+</body>
+
+</html>
